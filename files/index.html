@@ -861,9 +861,9 @@
                             <h4 class="footer-title">Newsletter</h4>
 
                             <div class="newsletter-form">
-                                <form action="#">
+                                <form method="post">
                                     <input type="text" placeholder="Email address">
-                                    <button><i class="fas fa-envelope"></i></button>
+                                    <button onclick="sendEmail()"><i class="fas fa-envelope"></i></button>
                                 </form>
                             </div>
                             <p>Sign up for our latest news & articles. We won’t give you spam mails.</p>
@@ -904,7 +904,7 @@
     
     <!--====== Main Activation  js ======-->
     <script src="assets/js/main.js"></script>
-
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     
 </body>
 
